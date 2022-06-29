@@ -1,0 +1,14 @@
+<web-app>
+	<servlet>
+		<servlet-name>d</servlet-name>
+		<servlet-class>D</servlet-class>
+		<init-param>
+			<param-name>db</param-name>
+			<param-value>jdbc:mysql://localhost:3306/test","coulid","aeroplnbloosldperson"</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>d</servlet-name>
+		<url-pattern>/add_into_db</url-pattern>
+	</servlet-mapping>
+</web-app>
